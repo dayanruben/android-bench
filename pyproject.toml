@@ -19,8 +19,8 @@ dependencies = [
     "PyGithub",
     "PyYAML",
     "uv",
-    "aiohttp==3.13.4",
-    "datasets==4.0.0",
+    "aiohttp==3.14.4",
+    "datasets==5.1.0",
     "mini-swe-agent==1.11.1",
     "docker==7.1.0",
     "google-cloud-aiplatform",
@@ -49,7 +49,7 @@ analysis = [
     "shfmt-py",
 ]
 dev = [
-    "black==26.3.1",
+    "black==26.10.1",
     "pre-commit",
     "pytest",
     "pytest-xdist",
